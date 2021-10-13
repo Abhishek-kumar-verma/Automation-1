@@ -18,7 +18,7 @@ let page;
         await page.type("input[type='Password']",deatailsobj.password,{delay:100});
         await page.click(".ui-btn.ui-btn-large.ui-btn-primary.auth-button.ui-btn-styled",{delay:100});
         console.log("login sucessfully");
-        await waitandclick(".track-item.bold",page);
+        await waitandclick(".topic-item.bold",page);
         //console.log("click on algorithms section");
         await waitandclick("input[value='warmup']",page);
         //console.log("reached target page");
